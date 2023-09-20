@@ -1,0 +1,84 @@
+* {
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+body {
+    background-color: #20364d;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 8em;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    margin-bottom: .5rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    margin-right: 4rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.imagem {
+   width: 700px;
+}
+section {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    width: 100vw;
+}
+h1 {
+    font-size: 3.5rem;
+    color: white;
+}
+span {
+    color: #ffc41c;
+}
+p {
+    margin-top: 1rem;
+    color: rgb(245, 234, 234);
+    padding-right: 10rem;
+}
+.inputs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 100%;
+}
+input {
+    outline: none;
+    padding: .5rem 0;
+    border-radius: 13px;
+    border: none;
+    width: 60%;
+    padding-left: 1rem;
+}
+.botao {
+    margin-top: 1rem;
+    background-color:  #ffc41c;
+    width: 30%;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: .5s ease-out;
+}
+.botao:hover {
+    opacity: 1;
+}
